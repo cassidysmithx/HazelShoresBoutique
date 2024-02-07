@@ -1,0 +1,58 @@
+body{
+  margin:6em;
+  background-color:LightGrey;
+  color:Navy;
+  font-family: 'Original Surfer', sans-serif;
+}
+
+h1{
+ text-align:center;
+  animation:headingChange 2s infinite;
+}
+
+@keyframes headingChange{
+  0%{color: #8A97BF;}
+  20%{color:  #0455BF;}
+  40%{color:  #034C8C;}
+  60%{color:  #011526;}
+  80%{color:  #0477BF;}
+  100%{color: #A3BCBF;}  
+}
+
+img{
+width:320px;
+}
+h1 {
+  color: gray;
+}
+
+/*shell*/
+.shell {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f41a.png) 36 36, auto;
+}
+/*wave*/
+.wave {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f30a.png) 36 36, auto;
+}
+/*octo*/
+.octo {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f419.png) 36 36, auto;
+}
+section{
+  display:flex;
+  paddingL 1rem;
+}
+figure{
+  display:flex;
+  align-self: flex-start;
+  position:sticky;
+  top: 1rem;
+}
+
+button{
+  background-color: Black;
+  color: Aquamarine;
+  font-family: "Georgia",
+    serif;
+  padding:10px;
+}
